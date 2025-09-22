@@ -5,6 +5,8 @@ on ODE and PDE datasets. Loads data, runs repeated experiments, aggregates
 results, and saves timing and performance summaries.
 
 Assumes project-local modules (EON, DON, PDE, EON_train, DON_train) are available.
+
+Author: Jari Beysen
 """
 
 # ---------------------------------------------------------------------------
@@ -403,3 +405,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
