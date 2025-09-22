@@ -9,6 +9,8 @@ Main experiment orchestration for EON/DON experiments.
 - Removed duplicate code and grouped related logic
 
 Assumes project-specific modules (EON, DON, ODE, PDE, EON_train, DON_train) are available.
+
+Author: Jari Beysen
 """
 
 # ----------------------
@@ -317,3 +319,4 @@ if __name__ == '__main__':
     # Directly specify which tests to run here
     tests_to_run = ['width', 'sensors', 'data', 'st', 'sb', 'cb', 'OOD1', 'OOD2']
     run_experiments(tests_to_run)
+
