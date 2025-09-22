@@ -2,6 +2,8 @@
 DON_train.py
 
 Training routine for DeepONet models with early stopping and logging.
+
+Author: Jari Beysen
 """
 
 import os
@@ -143,3 +145,4 @@ def train_DON(
         )
 
     return train_losses, test_losses
+
