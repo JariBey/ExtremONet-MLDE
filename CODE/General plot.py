@@ -1,6 +1,8 @@
 """
 General plot script for comparing EON and DON models.
 Generates bar and error plots for generalization error, training error, and timing.
+
+Author: Jari Beysen
 """
 
 # Imports
@@ -231,3 +233,4 @@ else:
     plt.savefig('time_comp2.svg', dpi=300, bbox_inches='tight', pad_inches=0.05)
 
 plt.show()
+
