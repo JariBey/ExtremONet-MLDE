@@ -2,6 +2,8 @@
 EON_train.py
 
 Training utilities for ExtremONet models using ridge regression with scalar regularization search.
+
+Author: Jari Beysen
 """
 
 import os
@@ -152,3 +154,4 @@ def train_EON(
         print(f"Training completed in {duration:.2f} s")
 
     return tr_hist, val_hist
+
