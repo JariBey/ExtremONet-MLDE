@@ -4,6 +4,8 @@ ODE Timeseries Generation with Gaussian Random Fields and Parameterized Inputs.
 This module provides utilities to generate time series data for ODEs with
 Gaussian random field (GRF) or parameterized inputs, including sensor sampling,
 data saving/loading, and example usage for pendulum and Lorenz63 systems.
+
+Author: Jari Beysen
 """
 
 import os
@@ -189,3 +191,4 @@ if __name__ == "__main__":
     save_data([TRANGE_L63, sensor_locs_L63, y0L63, LPARAM_RANGE], 'ODE_params_L63.pkl')
     save_data([values1, values2, SAMPLES], 'OOD_grid.pkl')
     save_data([dtr, dte], 'OOD_ODE.pkl')
+
